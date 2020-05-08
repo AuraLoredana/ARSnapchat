@@ -51,3 +51,13 @@ sceneform.asset('sampledata/models/fox_face.fbx',
         'default',
         'sampleData/models/fox_face.sfa',
         'src/main/res/raw/fox_face')
+
+sceneform.asset('sampledata/models/sonic.fbx',
+        'default',
+        'sampleData/models/sonic.sfa',
+        'src/main/res/raw/sonic')
+
+sceneform.asset('sampledata/models/face_mesh.obj',
+        'default',
+        'sampleData/models/face_mesh.sfa',
+        'src/main/res/raw/face_mesh')

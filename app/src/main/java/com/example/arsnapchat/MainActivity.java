@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 augmentedFaceMode.setFaceMeshTexture(texture);
                 faceNodeMap.put(augmentedFace, augmentedFaceMode);
                 isAdded = true;
-                
+
                 // Remove any AugmentedFaceNodes associated with an AugmentedFace that stopped tracking.
                 Iterator<Map.Entry<AugmentedFace, AugmentedFaceNode>> iterator = faceNodeMap.entrySet().iterator();
                 Map.Entry<AugmentedFace, AugmentedFaceNode> entry = iterator.next();
